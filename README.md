@@ -28,33 +28,33 @@ A modern, production-ready frontend application built using **React**, **TypeScr
 ## 🗂️ Project Structure
 
 src/
-├── api/ # API call abstraction
-├── components/ # UI components (ProductCard, ProductModal)
-├── pages/ # Page components (Home)
-├── types/ # TypeScript interfaces
-├── App.tsx # Application router
-├── main.tsx # Entry point
-└── index.css # Tailwind setup
+- api/ # API call abstraction
+- components/ # UI components (ProductCard, ProductModal)
+- pages/ # Page components (Home)
+- types/ # TypeScript interfaces
+- App.tsx # Application router
+- main.tsx # Entry point
+- index.css # Tailwind setup
 
 ---
 
 ## 🌐 Live API
 
-Data is fetched from the public [Fake Store API](https://fakestoreapi.com/). You can switch to other mock APIs via `.env`.
+Data is fetched from the public [Fake Store API](https://fakestoreapi.com/).
 
 ---
 
 ## 🚀 Getting Started
 
 1. Clone the Repository
-git clone https://github.com/yourusername/react-product-app.git
-cd react-product-app
+- git clone https://github.com/Piyush1105/react-assignment.git
+- cd react-product-app
 
 2. Install Dependencies
-npm install
+- npm install
 
 3. Start the Dev Server
-npm run dev
+- npm run dev
 
 4. Build for Production
-npm run build
+- npm run build
